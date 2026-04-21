@@ -19,7 +19,7 @@ public class Order {
     public void showOrder() {
         double total = 0;
 
-        System.out.println("===== THE RAM'S BREW ORDER =====");
+        System.out.println("The Ram's Brew Order(FSC STUDENTS ONLY");
 
         // Loop through the drinks in the order
         for (Beverage beverage : drinks) {
@@ -30,6 +30,6 @@ public class Order {
         // Show the service type
         orderTypeStrategy.handleOrderType();
         // Show the total order price
-        System.out.println("Total Price: $" + total);
+        System.out.println("The Total Price is : $" + total);
     }
 }
