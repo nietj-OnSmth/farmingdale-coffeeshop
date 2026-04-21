@@ -19,7 +19,7 @@ public class Order {
     public void showOrder() {
         double total = 0;
 
-        System.out.println("The Ram's Brew Order(FSC STUDENTS ONLY");
+        System.out.println("The Ram's Brew Order(FSC STUDENTS ONLY)");
 
         // Loop through the drinks in the order
         for (Beverage beverage : drinks) {
