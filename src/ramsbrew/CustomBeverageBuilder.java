@@ -3,7 +3,7 @@ package ramsbrew;
 public class CustomBeverageBuilder implements BeverageBuilder {
     private Beverage beverage;
 
-    // Constructor receives the beverage to customize
+    // Constructor receives the beverage to customize it
     public CustomBeverageBuilder(Beverage beverage) {
         this.beverage = beverage;
     }
