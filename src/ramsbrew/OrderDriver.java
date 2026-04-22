@@ -4,7 +4,7 @@ public class OrderDriver {
     public static void main(String[] args) {
 
         // create factory object
-        BeverageFactory factory = new BeverageFactory();
+        BeverageFactory factory = new RamsBrewFactory();
 
         Beverage drink1 = factory.createBeverage("Latte");
 
