@@ -3,7 +3,7 @@ package ramsbrew;
 public class OrderDriver {
     public static void main(String[] args) {
 
-        // create factory object
+        // creates factory object
         BeverageFactory factory = new RamsBrewFactory();
 
         Beverage drink1 = factory.createBeverage("Latte");
